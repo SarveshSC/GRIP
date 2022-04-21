@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    height: 10%;
+    padding: 12px;
+}
+a:visited , a:link , a:active{
+    text-decoration: none;
+}
+a{
+    color: black;
+    padding: 10px;
+}
+#main{
+    background-image: url(https://theirworld.org/wp-content/uploads/2017/08/India-literacy-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vw;
+}
+#About{
+    background-color: azure;
+    padding: 24px;
+}
+.about-container{
+    display: flex;
+    padding: 24px;
+}
+#about-image{
+    width: 50%;
+    margin-left: 48px;
+}
+.about-text{
+    width: 30vw;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: 72px;
+}
+#Contact{
+    background-color: beige;
+    text-align: center;
+    margin: 0;
+    padding: 12px;
+}
